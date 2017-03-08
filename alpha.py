@@ -38,8 +38,6 @@ array = A
 
 print len(array[0])
 
-
-
 for row in range(0,5):
 	for column in range(len(array[0])):          
                 unicorn.set_pixel(row, column, array[row][column] * 255, array[row][column] * 100, array[row][column] * 100)
