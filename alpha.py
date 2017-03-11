@@ -6,7 +6,7 @@ import unicornhat as unicorn
 unicorn.set_layout(unicorn.HAT)
 unicorn.rotation(90)
 unicorn.brightness(.4)
-time_sleep = 0.5
+time_sleep = 0.7
 
 A=[[1,1,1,1,1,1,0,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[1,1,1,1,1,1,0,0]]
 B=[[0,1,1,0,1,1,0,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,1,1,1,1,1,1,0]]
@@ -63,7 +63,7 @@ z=[[1,0,0,0,1,0,0,0],[1,0,0,1,1,0,0,0],[1,0,1,0,1,0,0,0],[1,1,0,0,1,0,0,0],[1,0,
 
 alpha_array = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
 
-for letter in range(0,51):
+for letter in range(0,52):
 	array = alpha_array[letter]
 	for row in range(0,5):
 		for column in range(len(array[0])):          
