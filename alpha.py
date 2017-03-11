@@ -6,6 +6,7 @@ import unicornhat as unicorn
 unicorn.set_layout(unicorn.HAT)
 unicorn.rotation(90)
 unicorn.brightness(.4)
+time_sleep = 0.5
 
 A=[[1,1,1,1,1,1,0,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[1,1,1,1,1,1,0,0]]
 B=[[0,1,1,0,1,1,0,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,1,1,1,1,1,1,0]]
@@ -59,6 +60,17 @@ w=[[0,1,1,1,1,0,0,0],[1,0,0,0,0,0,0,0],[0,1,1,0,0,0,0,0],[1,0,0,0,0,0,0,0],[0,1,
 x=[[1,0,0,0,1,0,0,0],[0,1,0,1,0,0,0,0],[0,0,1,0,0,0,0,0],[0,1,0,1,0,0,0,0],[1,0,0,0,1,0,0,0]]
 y=[[0,1,1,1,1,0,0,0],[1,0,1,0,0,0,0,0],[1,0,1,0,0,0,0,0],[1,0,1,0,0,0,0,0],[0,0,0,1,1,0,0,0]]
 z=[[1,0,0,0,1,0,0,0],[1,0,0,1,1,0,0,0],[1,0,1,0,1,0,0,0],[1,1,0,0,1,0,0,0],[1,0,0,0,1,0,0,0]]
+
+alpha_array = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
+
+for letter in range(len(alpha_array[0])
+	for row in range(0,5):
+		for column in range(len(array[0])):          
+                	unicorn.set_pixel(row, column, array[row][column] * 255, array[row][column] * 100, array[row][column] * 100)
+	unicorn.show()
+	time.sleep(1)
+		    
+exit
 
 array = A
 
