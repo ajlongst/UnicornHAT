@@ -5,7 +5,7 @@ import unicornhat as unicorn
 
 unicorn.set_layout(unicorn.HAT)
 unicorn.rotation(90)
-unicorn.brightness(.5)
+unicorn.brightness(.4)
 
 A=[[1,1,1,1,1,1,0,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[1,1,1,1,1,1,0,0]]
 B=[[0,1,1,0,1,1,0,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,1,1,1,1,1,1,0]]
