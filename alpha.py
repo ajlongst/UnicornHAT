@@ -4,8 +4,8 @@ import time
 import unicornhat as unicorn
 
 unicorn.set_layout(unicorn.HAT)
-unicorn.rotation(0)
-unicorn.brightness(.4)
+unicorn.rotation(90)
+unicorn.brightness(.5)
 
 A=[[1,1,1,1,1,1,0,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[0,0,1,0,0,0,1,0],[1,1,1,1,1,1,0,0]]
 B=[[1,1,1,1,1,1,1,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[1,0,0,1,0,0,1,0],[0,1,1,0,1,1,0,0]]
